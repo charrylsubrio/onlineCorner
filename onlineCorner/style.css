@@ -9,6 +9,8 @@ header {
 
 #sub {
     background-color: aqua;
+    text-align: right;
+    margin-right: 20px;
 }
 
 #search {
@@ -33,4 +35,30 @@ header {
 
 footer {
     background-color: rgb(108, 108, 255);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo, .search-box, .account-name, .cart-icon {
+    display: inline-block;
+}
+
+.logo {
+    background-color: aquamarine;
+}
+
+.search-box {
+    background-color: brown;
+}
+
+.account-name {
+    background-color: blueviolet;
+}
+
+.cart-icon {
+    background-color: blue;
 }
