@@ -1,0 +1,191 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header and navbar styling */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+/* Search bar */
+.search-bar input[type="text"] {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Account and Cart Section */
+.account-cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.account-cart span {
+    font-size: 0.9em;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.account-cart .cart-icon {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+/* Carousel styling */
+.carousel-inner {
+    max-height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.carousel-caption a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+}
+
+.carousel-caption a:hover {
+    color: #fff;
+    background-color: #ff9800;
+}
+
+/* Category buttons */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
+
+.category-buttons .btn {
+    margin: 0 5px;
+    color: #343a40;
+    background-color: #e1e1e1;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+
+.category-buttons .btn:hover {
+    background-color: #ccc;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 20px 0;
+}
+
+.featured-products .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.featured-products .card:hover {
+    transform: scale(1.05);
+}
+
+.featured-products .card h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.featured-products .card a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+.featured-products .card a:hover {
+    color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Additional utilities */
+.text-bold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption a {
+        font-size: 1rem;
+    }
+}
