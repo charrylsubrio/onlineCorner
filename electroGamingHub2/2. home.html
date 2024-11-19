@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electro Gaming Hub</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom Styles */
+    .navbar {
+      background-color: #2f2a4a;
+    }
+
+    .navbar-brand {
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    .navbar-brand:hover {
+      color: #00ffaa;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+      height: 500px;
+    }
+
+    .category-buttons button {
+      margin: 5px;
+    }
+
+    .highlight-banner {
+      background: #0e0d1f;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Electro Gaming Hub</a>
+      <form class="d-flex ms-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="ms-3">
+        <a href="#" class="btn btn-outline-light">My Account</a>
+        <a href="#" class="btn btn-outline-light">Cart</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Category Buttons -->
+  <div class="container text-center my-3">
+    <div class="category-buttons d-flex justify-content-center flex-wrap">
+      <button class="btn btn-outline-secondary">Home</button>
+      <button class="btn btn-outline-secondary">PS5</button>
+      <button class="btn btn-outline-secondary">PS4</button>
+      <button class="btn btn-outline-secondary">NSW</button>
+      <button class="btn btn-outline-secondary">XBOX</button>
+      <button class="btn btn-outline-secondary">PC/MAC</button>
+      <button class="btn btn-outline-secondary">Collectibles</button>
+      <button class="btn btn-outline-secondary">Essentials</button>
+      <button class="btn btn-outline-secondary">Pre-Orders</button>
+      <button class="btn btn-outline-secondary">Digital Store</button>
+      <button class="btn btn-outline-secondary">Promos</button>
+      <button class="btn btn-outline-secondary">Order Status</button>
+    </div>
+  </div>
+
+  <!-- Highlight Banner -->
+  <div class="highlight-banner">
+    <h1>GIGABYTE™</h1>
+    <p>Upgrade Your Life</p>
+    <a href="#" class="btn btn-warning">SHOP NOW!</a>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Featured Section -->
+  <div class="container my-5">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Feature 1">
+        <p>Massive Bass. Ultimate Vibe</p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Feature 2">
+        <p>External Hard Drive: Secure & Stylish</p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Feature 3">
+        <p>Wicked Cushions for Headphones</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
