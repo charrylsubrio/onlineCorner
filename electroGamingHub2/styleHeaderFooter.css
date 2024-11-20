@@ -18,3 +18,10 @@ body {
     border-top: 2px solid #28a745;
   }
   
+  .search-bar {
+    width: 100px; /* Adjust the width as needed */
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
