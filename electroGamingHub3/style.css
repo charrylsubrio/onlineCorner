@@ -1,0 +1,90 @@
+.category-buttons button {
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Custom button style */
+.btn-outline-secondary {
+    background-color: #95DBAD;
+    border-color: #95DBAD;
+    color: #000000;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #261d39;
+    color: #fff;  /* Change text color to white on hover */
+    border-color: #261d39;
+  }
+  
+.category-buttons-nav {
+    margin-top: -20px; /* Adjust the value as needed (e.g., 20px, 30px, etc.) */
+    margin-bottom: -20px;
+}
+
+.equal-width {
+    width: 139px; /* Adjust width as needed */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.filters {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.add-to-cart {
+  background-color: #2f2a4a;
+  color: white;
+  border: none;
+}
+
+.add-to-cart:hover {
+  background-color: #4c4775;
+}
+
+.filters h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.filters .form-check-label {
+  margin-left: 0.5rem;
+}
+
+.results-header {
+  margin-bottom: 1rem;
+}
+
+.results-header h2 {
+  font-weight: bold;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}

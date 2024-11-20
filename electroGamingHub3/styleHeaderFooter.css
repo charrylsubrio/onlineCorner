@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    border-top: 2px solid #28a745;
+  }
+  
+  .search-bar {
+    width: 100px; /* Adjust the width as needed */
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }

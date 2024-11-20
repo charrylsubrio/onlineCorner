@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-thumbnail {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
