@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7. myAccount</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+  <!-- Header -->
+  <header class="text-light py-3" style="background-color: #261d39;">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Left Section: Logo -->
+      <div class="d-flex align-items-center me-1" style="flex: 1;">
+        <img src="logo.png" alt="Electro Gaming Hub" class="logo" height="100px">
+      </div>
+
+      <!-- Middle Section: Search Bar -->
+      <div class="flex-grow-1 me-5" style="flex: 1;">
+        <div class="input-group">
+          <input type="text" class="form-control search-bar" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="button"><i class="bi bi-search"></i></button>
+        </div>
+      </div>
+
+      <!-- Right Section: User Section -->
+      <div class="d-flex align-items-center" style="flex: 1;">
+        <div class="text-end ms-5 me-5">
+          <span>CHARRYL SUBRIO</span><br>
+          <a href="#" class="text-light no-underline" style="text-decoration: none;">My Account ▼</a>
+        </div>
+        <div class="ms-5">
+          <a href="#" class="text-light no-underline" style="text-decoration: none;"><i class="bi bi-cart"></i> My Cart</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Category Buttons -->
+    <nav class="category-buttons-nav">
+        <div class="container-fluid text-center my-3">
+            <div class="category-buttons d-flex justify-content-center flex-wrap">
+            <button class="btn btn-outline-secondary equal-width"><strong>Home</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>PS5</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>PS4</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>NSW</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>XBOX</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>PC/MAC</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>Collectibles</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>Essentials</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>Promos</strong></button>
+            <button class="btn btn-outline-secondary equal-width"><strong>Order Status</strong></button>
+            </div>
+        </div>
+    </nav>
+
+  <div class="container my-4">
+    <h2>My Account</h2>
+    <div class="row">
+      <aside class="col-md-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Homebase</a>
+          <a href="#" class="list-group-item list-group-item-action">Orders</a>
+          <a href="#" class="list-group-item list-group-item-action active">Profile</a>
+          <a href="#" class="list-group-item list-group-item-action">Logout</a>
+        </div>
+        <div class="card mt-4">
+          <div class="card-body text-center">
+            <p>tractorsunglass@gmail.com</p>
+            <p>Charryl Subrio<br>Philippines</p>
+            <button class="btn btn-primary btn-sm mb-2">Update Profile</button>
+            <button class="btn btn-danger btn-sm">Change Password</button>
+          </div>
+        </div>
+      </aside>
+      <main class="col-md-9">
+        <div class="card">
+          <div class="card-body">
+            <h5>Personal Information</h5>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-4">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" id="firstName" class="form-control" value="Charryl">
+                </div>
+                <div class="col-md-4">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" id="lastName" class="form-control" value="Subrio">
+                </div>
+                <div class="col-md-4">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-control" value="tractorsunglass@gmail.com">
+                </div>
+              </div>
+              <div class="form-check mb-3">
+                <input type="checkbox" id="emailUpdates" class="form-check-input">
+                <label for="emailUpdates" class="form-check-label">Email me with news and offers</label>
+              </div>
+              <button type="button" class="btn btn-dark">Save Details</button>
+            </form>
+            <hr>
+            <h5>Change My Password</h5>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="newPassword" class="form-label">New Password</label>
+                  <input type="password" id="newPassword" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="confirmPassword" class="form-label">Repeat Password</label>
+                  <input type="password" id="confirmPassword" class="form-control">
+                </div>
+              </div>
+              <button type="button" class="btn btn-dark">Save Password</button>
+            </form>
+            <hr>
+            <h5>Saved Addresses</h5>
+            <div class="d-flex align-items-center">
+              <div class="card w-50 me-3">
+                <div class="card-body">
+                  <p>Charryl Subrio<br>Philippines</p>
+                  <span class="badge bg-primary">DEFAULT</span>
+                  <div class="mt-3">
+                    <button class="btn btn-sm btn-outline-primary">Edit</button>
+                    <button class="btn btn-sm btn-outline-danger">Delete</button>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-outline-success w-25">+ Add Address</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="text-light py-4 mt-5" style="background-color: #261d39;">
+  <div class="container text-center">
+    <p>&copy; 2024 Electro Gaming Hub. All rights reserved.</p>
+    <p>
+      <a href="#" class="text-light mx-2">Privacy Policy</a> |
+      <a href="#" class="text-light mx-2">Terms of Service</a> |
+      <a href="#" class="text-light mx-2">Contact Us</a>
+    </p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5. myCart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <!-- Header -->
+    <header class="text-light py-3" style="background-color: #261d39;">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Left Section: Logo -->
+        <div class="d-flex align-items-center me-1" style="flex: 1;">
+          <img src="logo.png" alt="Electro Gaming Hub" class="logo" height="100px">
+        </div>
+  
+        <!-- Middle Section: Search Bar -->
+        <div class="flex-grow-1 me-5" style="flex: 1;">
+          <div class="input-group">
+            <input type="text" class="form-control search-bar" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="button"><i class="bi bi-search"></i></button>
+          </div>
+        </div>
+  
+        <!-- Right Section: User Section -->
+        <div class="d-flex align-items-center" style="flex: 1;">
+          <div class="text-end ms-5 me-5">
+            <span>CHARRYL SUBRIO</span><br>
+            <a href="#" class="text-light no-underline" style="text-decoration: none;">My Account ▼</a>
+          </div>
+          <div class="ms-5">
+            <a href="#" class="text-light no-underline" style="text-decoration: none;"><i class="bi bi-cart"></i> My Cart</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+      <!-- Category Buttons -->
+      <nav class="category-buttons-nav">
+          <div class="container-fluid text-center my-3">
+              <div class="category-buttons d-flex justify-content-center flex-wrap">
+              <button class="btn btn-outline-secondary equal-width"><strong>Home</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>PS5</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>PS4</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>NSW</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>XBOX</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>PC/MAC</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>Collectibles</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>Essentials</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>Promos</strong></button>
+              <button class="btn btn-outline-secondary equal-width"><strong>Order Status</strong></button>
+              </div>
+          </div>
+      </nav>
+  
+    <main class="container py-4">
+        <h2>My Cart</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                GPD Oculink Cable SFF-8611 + M.2 to Oculink 8612 Adapter Card for GPD G1 Graphics Card Expansion Dock<br>
+                                <strong>₱2,095.00</strong>
+                            </td>
+                            <td>
+                                <div class="input-group">
+                                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                                    <input type="text" class="form-control form-control-sm text-center" value="1">
+                                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                                </div>
+                                <a href="#" class="text-danger small d-block">Remove</a>
+                            </td>
+                            <td>₱2,095.00</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                GPD Win Mini AMD Ryzen 7 7840U 7" LTPS Technology 120Hz 32GB RAM + 2TB SSD<br>
+                                <strong>₱42,995.00</strong>
+                            </td>
+                            <td>
+                                <div class="input-group">
+                                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                                    <input type="text" class="form-control form-control-sm text-center" value="1">
+                                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                                </div>
+                                <a href="#" class="text-danger small d-block">Remove</a>
+                            </td>
+                            <td>₱42,995.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Total</h4>
+                        <p><strong>₱45,090.00</strong></p>
+                        <div class="mb-3">
+                            <label for="instructions" class="form-label">Order instructions</label>
+                            <textarea id="instructions" class="form-control" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary w-100">Check Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="mt-5 text-center text-muted">
+            <div>100% Secure Payments | Fast Shipping Nationwide | Save on Loyalty Rewards</div>
+        </footer>
+    </main>
+
+<!-- Footer -->
+<footer class="text-light py-4 mt-5" style="background-color: #261d39;">
+    <div class="container text-center">
+      <p>&copy; 2024 Electro Gaming Hub. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-light mx-2">Privacy Policy</a> |
+        <a href="#" class="text-light mx-2">Terms of Service</a> |
+        <a href="#" class="text-light mx-2">Contact Us</a>
+      </p>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
